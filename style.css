@@ -1,0 +1,53 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-size: 0.9rem;
+}
+body{
+    background-image: url("./background.jpg");
+    background-size: 100%;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    
+
+}
+
+
+.main{
+    width: 69vw;
+
+}
+
+.l-panel{
+    
+    min-height: 80vh ;
+    width: 50vw;
+    padding: 0px;
+    background-image: url("side\ \(2\).jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-top: 15rem;
+    color: BLACK;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+}
+
+.btn-class{
+    background-color: #f99fae;
+    border: none;
+}
+
+.r-panel{
+   
+    /* height: 70vh; */
+    width: 60vw;
+    padding-left: 3rem;
+    background-color:rgba(252, 238, 222, 0.712);
+
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+.r-panel>form>div{
+    margin-bottom: 2rem;
+    margin-left: 10rem;
+}
